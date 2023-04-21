@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CDE6C7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, .menu, footer {
+    color: #FFFFFF;
+    background-color: #77AB59;
+}
+
+.menu ul li a {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    bottom: 0;
+    left: 0;  
+}
+
+footer ul,
+footer a, 
+footer .copy {
+    text-decoration: none;
+    color: #FFFFFF !important;
+    list-style: none;
+    font-size: 18px;
+}
